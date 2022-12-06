@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon.png">
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <title>Auau Pet Shop</title>
+    <link rel="stylesheet" href="./Css/style.css">
+</head>
+
+<body>
+
+    <!-- Newsletter -->
+    <div class="newsletter-background">
+        <article class="newsletter-container">
+            <div class="newsletter-content">
+                <button class="newsletter-closeBtn">x</button>
+                <h4>Que tal um descontão de <span>10%</span> na sua compra?</h4>
+                <h5>Cadastre-se e ganhe um <span>super desconto</span> para aproveitar e deixar o seu pet felizão</h5>
+                <form>
+                    <input type="email" class="form-input" placeholder="email@example.com.br">
+                    <button class="form-btn" type="submit">Cadastrar</button>
+                </form>
+            </div>
+        </article>
+    </div>
+
+    <!-- Buy It -->
+    <div class="purchase-items">
+        <h3>Agradecemos a sua compra!</h3>
+        <h4>Em breve, você receberá um e-mail de confirmação com todos os detalhes do pedido.</h4>
+    </div>
+
+    <!-- Error Alert -->
+    <div class="newsletter-alert-err">
+        <p>Ops...</p>
+        <p>Para continuar, insira o e-mail desejado!</p>
+    </div>
+
+    <!-- Success Alert -->
+    <div class="newsletter-alert-suc">
+        <p>E-mail cadastrado com sucesso!</p>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="header-info">
+            <p>Frete Grátis - <span>Acima de R$ 299</span> - Sul e Sudeste</p>
+            <p>Não serviu? A <span>primeira troca</span> é grátis</p>
+            <p><span>10%</span> de desconto no boleto</p>
+            <p>Pague em até <span>10x sem juros</span></p>
+        </div>
+        <nav class="nav">
+            <img class="nav-logo" src="./img/Header/logo.png" alt="Logo Auau PetShop: um cachorro caramelo sentado">
+            <div class="nav-menu">
+                <button class="mobile-btn">
+                    <img src="./img/mobileMenuBtn.png" alt="Botão mobile">
+                </button>
+                <ul class="nav-list">
+                    <li>Rações <span class="arrow-menu">&#709;</span></li>
+                    <li>Acessórios <span class="arrow-menu">&#709;</span></li>
+                    <li>Kits</li>
+                    <li>Combos</li>
+                    <li class="menu-btn">Promoções</li>
+                    <li class="close-menu-mobile">x</li>
+                </ul>
+            </div>
+            <div class="nav-icons">
+                <img src="./img/Header/search.png" alt="Lupa">
+                <img src="./img/Header/wish.png" alt="Coração">
+                <img class="cartIcon" src="./img/Header/cart.png" alt="Carrinho de compras"><span></span>
+            </div>
+        </nav>
+        <img id="main-banner" src="./img/Banner/full-banner.png" alt="Cachorro">
+    </header>
+
+    <!-- Modelo para produtos -->
+    <div class="models">
+
+        <!-- Lista para os produtos -->
+        <div class="product-item">
+            <img class="product-item-img" src="" />
+            <div class="product-item-infos">
+                <p class="product-item-name"></p>
+                <img class="product-item-rating" src="./img/Product/rate.png" />
+                <div class="prices">
+                    <p class="product-item-price"></p>
+                    <p class="product-item-prevPrice"></p>
+                </div>
+                <button class="buy-btn">Comprar</button>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- Carrinho de compras -->
+    <div class="background-cart-item">
+        <div class="cart-item">
+            <div>
+                <div class="cart-header">
+                    <h4>Minha sacola</h4>
+                    <button class="close-modal">x</button>
+                </div>
+                <div class="cart-body">
+
+                </div>
+            </div>
+            <div class="cart-footer">
+                <h4>Subtotal:<span class="cart-total"></span></h4>
+                <div></div>
+                <button class="cart-btn-continue">Continuar comprando</button>
+                <button class="cart-btn-finish">Finalizar compra</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Body -->
+    <main>
+
+        <!-- Primeira Seção -->
+        <section class="section-queridinhos">
+            <h2 class="section-title">
+                <span class="trace">---------</span>
+                Os Nossos Queridinhos
+                <span class="trace">---------</span>
+            </h2>
+            <h3 class="section-subtitle">Produtos escolhidos com carinho para você!</h3>
+            <article class="article-queridinhos">
+                <aside class="aside-queridinhos">
+                    <img src="./img/Banner/side-banner-1.png" alt="Cão vestido com roupa que possui orelhas de pano">
+                </aside>
+                <div class="first-products-area"></div>
+            </article>
+
+            <article class="second-article-queridinhos">
+                <div class="second-products-area"></div>
+                <aside class="second-aside-queridinhos">
+                    <img src="./img/Banner/side-banner-2.png" alt="Cão vestido com roupa jeans">
+                </aside>
+            </article>
+        </section>
+
+        <!-- Segunda Seção -->
+        <section class="section-exclusivos">
+            <h2 class="section-title">
+                <span class="trace">---------</span>
+                <span class="not-bold">Produtos</span> Exclusivos
+                <span class="trace">---------</span>
+            </h2>
+            <div class="third-products-area"></div>
+
+            <figure>
+                <img src="./img/Banner/footer-banner-1.png" alt="Cachorro com elemente de pelúcia na boca">
+                <img src="./img/Banner/footer-banner-2.png" alt="Cachorro com orelha demonstrando atenção">
+            </figure>
+        </section>
+
+        <!-- Terceira Seção -->
+        <section class="section-maisVendidos">
+            <div class="border-top"></div>
+            <h2 class="section-title">
+                <span class="trace">---------</span>
+                Mais Vendidos
+                <span class="trace">---------</span>
+            </h2>
+            <div class="fourth-products-area"></div>
+            <div class="border-bottom"></div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-logo"><img src="./img/Header/logo.png" alt="Logo Auau PetShop: um cachorro caramelo sentado">
+        </div>
+        <div class="footer-infos">
+            <div>
+                <h4>Institucional</h4>
+                <ul>
+                    <li>Quem somos</li>
+                    <li>Missão e Visão</li>
+                    <li>Valores</li>
+                    <li>Política de Privacidade</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Atendimento</h4>
+                <ul>
+                    <li>Entregas</li>
+                    <li>Trocas e Devoluções</li>
+                    <li>Fale Conosco</li>
+                    <li>Dúvidas Frequentes</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Confie</h4>
+                <figure>
+                    <img class="logoJet" src="./img/Footer/jet.png" alt="Logo Jet">
+                    <img class="seal" src="./img/Footer/seal.png" alt="Selo compre e confie">
+                </figure>
+            </div>
+        </div>
+        <hr>
+        <figure class="credit-cards">
+            <img src="./img/Footer/brands.png" alt="Bandeiras de cartões de crédito">
+        </figure>
+    </footer>
+
+    <script src="./Items.js"></script>
+    <script src="./Js/script.js"></script>
+    <script src="./Js/newsletter.js"></script>
+    <script src="./Js/menuMobile.js"></script>
+</body>
+</html>
