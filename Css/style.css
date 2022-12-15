@@ -139,13 +139,13 @@
     color: var(--amarelo);
 }
 
-@media (width <355px) {
+@media screen and (max-width: 354px) {
     .newsletter-container {
         background-position: 25%;
     }
 }
 
-@media (width <715px) {
+@media screen and (max-width: 716px) {
 
     .newsletter-content {
         margin: 0 auto;
@@ -361,19 +361,19 @@ header img {
     width: 100%;
 }
 
-@media (width <=495px) {
+@media screen and (max-width: 495px) {
     .main-banner {
         height: 600px;
     }
 }
 
-@media (width <=425px) {
+@media screen and (max-width: 425px) {
     .nav-logo {
         width: 140px;
     }
 }
 
-@media (width <=445px) {
+@media screen and (max-width: 445px) {
     .header-info p {
         font-size: 0.75rem;
         padding: 0.5rem;
@@ -388,7 +388,7 @@ header img {
     }
 }
 
-@media (width <=980px) {
+@media screen and (max-width: 980px) {
     .nav {
         gap: 1.25rem;
     }
@@ -396,7 +396,7 @@ header img {
 
 /* Menu Mobile */
 
-@media (width<1000px) {
+@media screen and (max-width: 1000px) {
 
     .mobile-btn {
         display: flex;
@@ -582,7 +582,7 @@ header img {
     background-color: var(--laranjaBtnHover);
 }
 
-@media (width <=545px) {
+@media screen and (max-width: 545px) {
     .section-title {
         font-size: 1.5625rem;
     }
@@ -596,7 +596,7 @@ header img {
     }
 }
 
-@media (width <=1286px) {
+@media screen and (max-width: 1286px) {
 
     .article-queridinhos {
         gap: 2rem;
@@ -611,7 +611,7 @@ header img {
     }
 }
 
-@media (width <=1350px) {
+@media screen and (max-width: 1350px) {
     .second-aside-queridinhos {
         text-align: center;
     }
@@ -651,7 +651,7 @@ header img {
     cursor: pointer;
 }
 
-@media (width <=983px) {
+@media screen and (max-width: 983px) {
     .third-products-area button {
         margin-bottom: 0.75rem;
     }
@@ -768,7 +768,7 @@ hr {
     border: none;
 }
 
-@media (width <=215px) {
+@media screen and (max-width: 215px) {
     .footer-logo img {
         width: 140px;
         margin: 2rem auto;
@@ -855,7 +855,7 @@ button {
 }
 
 .cart-body .product-item-img {
-    width: 45px;
+    width: 40px;
     height: 100px;
 }
 
@@ -871,7 +871,7 @@ button {
     margin: 0.5rem 0;
 }
 
-@media (width <=392px) {
+@media screen and (max-width: 392px) {
     .cart-body {
         gap: 0.5rem;
     }
