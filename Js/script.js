@@ -95,7 +95,7 @@ cartIcon.addEventListener("click", () => {
 let actionBtn = document.querySelectorAll(".buy-btn");
 
 for (let i = 0; i <= actionBtn.length; i++) {
-  actionBtn[i].addEventListener('click', () => {
+  actionBtn[i]?.addEventListener('click', () => {
     if ([i] % 2 === 0) {
       cartNumbers(itemList[1]);
       totalCost(itemList[1]);
