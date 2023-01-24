@@ -1,5 +1,7 @@
 # Auau Pet Shop :dog2:
 
+<img src="http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=success&style=for-the-badge"/> <img src="http://img.shields.io/static/v1?label=release%20date&message=DECEMBER%202022&color=green&style=for-the-badge"/> <img src="http://img.shields.io/static/v1?label=license&message=MIT&color=informational&style=for-the-badge"/>
+
 <div align="center">
 
 <img src="https://user-images.githubusercontent.com/113437603/209727045-23255a0a-0110-416e-b7ef-3ea6b5c2b5e4.png" width="760px">
